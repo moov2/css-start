@@ -11,6 +11,7 @@
  *                            handle.
  * CLEARFIX.................. Micro clearfix courtesy of Nicolas Gallagher
  *                            http://nicolasgallagher.com/micro-clearfix-hack/
+ * MIXINS.................... Collection of useful mixins e.g. `rem`.
  */
 
 @import "_vars";
@@ -26,3 +27,4 @@
 
 @import "utils/reset";
 @import "utils/clearfix";
+@import "utils/mixins";
