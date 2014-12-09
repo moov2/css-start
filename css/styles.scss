@@ -14,6 +14,7 @@
  * MIXINS.................... Collection of useful mixins e.g. `rem`.
  *
  * MAIN...................... HTML & BODY elements.
+ * IMAGES>................... Styling the `img` tag.
  * PARAGRAPHS................ Styling the `p` tag.
  */
 
@@ -34,4 +35,5 @@
 
 
 @import "base/main";
+@import "base/images";
 @import "base/paragraphs";
