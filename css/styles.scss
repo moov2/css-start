@@ -9,6 +9,8 @@
  *
  * RESET..................... Custom reset to do anything that normalize doesn't
  *                            handle.
+ * CLEARFIX.................. Micro clearfix courtesy of Nicolas Gallagher
+ *                            http://nicolasgallagher.com/micro-clearfix-hack/
  */
 
 @import "_vars";
@@ -23,3 +25,4 @@
 
 
 @import "utils/reset";
+@import "utils/clearfix";
