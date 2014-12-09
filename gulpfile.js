@@ -62,7 +62,6 @@ var handleError = function (err) {
  * Compiles Sass into CSS.
  */
 gulp.task('styles', function () {
-    console.log(src(paths.scss));
     gulp.src(src(paths.scss))
         .pipe(sass({ sourcemap: 'none' }))
             .on('error', handleError)
