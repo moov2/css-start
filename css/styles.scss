@@ -14,6 +14,7 @@
  * MIXINS.................... Collection of useful mixins e.g. `rem`.
  *
  * MAIN...................... HTML & BODY elements.
+ * PARAGRAPHS................ Styling the `p` tag.
  */
 
 @import "_vars";
@@ -33,3 +34,4 @@
 
 
 @import "base/main";
+@import "base/paragraphs";
