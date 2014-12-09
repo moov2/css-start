@@ -4,6 +4,16 @@
  * -----------------------------------------------------------------------------
  *
  * VARS...................... Reusable values used to configure the style sheet.
+ *
+ * NORMALIZE................. CSS reset courtesy of normalize. http://necolas.github.io/normalize.css/
  */
 
 @import "_vars";
+
+/**
+ * -----------------------------------------------------------------------------
+ *   $NORMALIZE
+ * -----------------------------------------------------------------------------
+ */
+
+@import "vendor/normalize"; 
